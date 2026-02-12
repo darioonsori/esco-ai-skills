@@ -1,0 +1,846 @@
+{
+  "name": "AI-related occupations (ESCO)",
+  "code": "ROOT",
+  "children": [
+    {
+      "name": "Armed forces occupations",
+      "code": "0",
+      "children": [
+        {
+          "name": "Armed forces occupations, other ranks",
+          "code": "03",
+          "children": [
+            {
+              "name": "Armed forces occupations, other ranks",
+              "code": "031",
+              "children": [
+                {
+                  "name": "Armed forces occupations, other ranks",
+                  "code": "0310",
+                  "children": [
+                    {
+                      "name": "military engineer",
+                      "code": "http://data.europa.eu/esco/occupation/555235ce-8c45-409b-a6c9-83e69c2d2bce",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        }
+      ],
+      "type": "isco1"
+    },
+    {
+      "name": "Managers",
+      "code": "1",
+      "children": [
+        {
+          "name": "Chief executives, senior officials and legislators",
+          "code": "11",
+          "children": [
+            {
+              "name": "Legislators and senior officials",
+              "code": "111",
+              "children": [
+                {
+                  "name": "Senior government officials",
+                  "code": "1112",
+                  "children": [
+                    {
+                      "name": "central bank governor",
+                      "code": "http://data.europa.eu/esco/occupation/9e4269d5-e10e-4f49-ac99-65c833f933a2",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Production and specialised services managers",
+          "code": "13",
+          "children": [
+            {
+              "name": "Information and communications technology service managers",
+              "code": "133",
+              "children": [
+                {
+                  "name": "Information and communications technology service managers",
+                  "code": "1330",
+                  "children": [
+                    {
+                      "name": "ICT information and knowledge manager",
+                      "code": "http://data.europa.eu/esco/occupation/810e5e67-acd5-499a-b307-cf5bea330859",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "chief data officer",
+                      "code": "http://data.europa.eu/esco/occupation/e297ec12-4712-40a4-ad98-ba004cacb205",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Professional services managers",
+              "code": "134",
+              "children": [
+                {
+                  "name": "Professional services managers not elsewhere classified",
+                  "code": "1349",
+                  "children": [
+                    {
+                      "name": "document management officer",
+                      "code": "http://data.europa.eu/esco/occupation/ef5b17a5-3ca8-4965-bd3d-61c4aca490d1",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        }
+      ],
+      "type": "isco1"
+    },
+    {
+      "name": "Professionals",
+      "code": "2",
+      "children": [
+        {
+          "name": "Science and engineering professionals",
+          "code": "21",
+          "children": [
+            {
+              "name": "Physical and earth science professionals",
+              "code": "211",
+              "children": [
+                {
+                  "name": "Physicists and astronomers",
+                  "code": "2111",
+                  "children": [
+                    {
+                      "name": "cosmologist",
+                      "code": "http://data.europa.eu/esco/occupation/bc659adc-f42c-4ef6-89fe-fd030033f446",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Geologists and geophysicists",
+                  "code": "2114",
+                  "children": [
+                    {
+                      "name": "hydrologist",
+                      "code": "http://data.europa.eu/esco/occupation/55167849-82cf-484e-b818-fa702a4e69e9",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Mathematicians, actuaries and statisticians",
+              "code": "212",
+              "children": [
+                {
+                  "name": "Mathematicians, actuaries and statisticians",
+                  "code": "2120",
+                  "children": [
+                    {
+                      "name": "mathematician",
+                      "code": "http://data.europa.eu/esco/occupation/72628f3a-fd49-499a-9741-870b0a1fcef2",
+                      "value": 3,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "statistician",
+                      "code": "http://data.europa.eu/esco/occupation/ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "biometrician",
+                      "code": "http://data.europa.eu/esco/occupation/b0f3f595-4965-4f13-ba5c-f6049b62469f",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Life science professionals",
+              "code": "213",
+              "children": [
+                {
+                  "name": "Biologists, botanists, zoologists and related professionals",
+                  "code": "2131",
+                  "children": [
+                    {
+                      "name": "bioinformatics scientist",
+                      "code": "http://data.europa.eu/esco/occupation/68d973df-bf10-4bf7-9a1b-fbd9f604b9db",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Environmental protection professionals",
+                  "code": "2133",
+                  "children": [
+                    {
+                      "name": "environmental technician",
+                      "code": "http://data.europa.eu/esco/occupation/e8461d2e-3d75-477c-93a2-ea8d342bb55b",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Engineering professionals (excluding electrotechnology)",
+              "code": "214",
+              "children": [
+                {
+                  "name": "Industrial and production engineers",
+                  "code": "2141",
+                  "children": [
+                    {
+                      "name": "maintenance and repair engineer",
+                      "code": "http://data.europa.eu/esco/occupation/615920c5-4f63-4eb3-8b60-afaaed3ab1ff",
+                      "value": 5,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Environmental engineers",
+                  "code": "2143",
+                  "children": [
+                    {
+                      "name": "environmental engineer",
+                      "code": "http://data.europa.eu/esco/occupation/ac1fc6a9-70d2-475c-8fa0-82ef83830968",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Mechanical engineers",
+                  "code": "2144",
+                  "children": [
+                    {
+                      "name": "naval architect",
+                      "code": "http://data.europa.eu/esco/occupation/5a58da2b-2fa0-40d4-a9f5-fead48e7de88",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Engineering professionals not elsewhere classified",
+                  "code": "2149",
+                  "children": [
+                    {
+                      "name": "renewable energy engineer",
+                      "code": "http://data.europa.eu/esco/occupation/0e99c929-364f-4b0a-8a64-2aab42420f00",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "energy systems engineer",
+                      "code": "http://data.europa.eu/esco/occupation/1ff61522-8947-4c95-b589-cb0e0539a62b",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "solar energy engineer",
+                      "code": "http://data.europa.eu/esco/occupation/42dbb769-4c91-47dc-bd16-ec8e70c4180f",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "onshore wind energy engineer",
+                      "code": "http://data.europa.eu/esco/occupation/ba490796-46f7-45b7-827b-db6882fca3e1",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "offshore renewable energy engineer",
+                      "code": "http://data.europa.eu/esco/occupation/c44c37a2-88c3-4ac2-9cf9-959f42deb02b",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "autonomous driving specialist",
+                      "code": "http://data.europa.eu/esco/occupation/e8fca903-6590-48a8-8902-094bb41ee90c",
+                      "value": 3,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "application engineer",
+                      "code": "http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Electrotechnology engineers",
+              "code": "215",
+              "children": [
+                {
+                  "name": "Electrical engineers",
+                  "code": "2151",
+                  "children": [
+                    {
+                      "name": "electric power generation engineer",
+                      "code": "http://data.europa.eu/esco/occupation/58db3ac6-5217-4d46-8a4c-126598be1d13",
+                      "value": 5,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "electromechanical engineer",
+                      "code": "http://data.europa.eu/esco/occupation/77abfaec-a250-4765-95fa-6091e8da1bba",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "power distribution engineer",
+                      "code": "http://data.europa.eu/esco/occupation/ac37627c-a999-4779-997e-9795cc4f9a3d",
+                      "value": 5,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Electronics engineers",
+                  "code": "2152",
+                  "children": [
+                    {
+                      "name": "language engineer",
+                      "code": "http://data.europa.eu/esco/occupation/4874fa37-0cd1-4a68-aed8-a838851f242d",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "microelectronics designer",
+                      "code": "http://data.europa.eu/esco/occupation/7b4744a8-a4e3-4104-9b74-4ec54108af7b",
+                      "value": 3,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "microelectronics smart manufacturing engineer",
+                      "code": "http://data.europa.eu/esco/occupation/82616669-cc82-4455-9332-a2df209e9f3e",
+                      "value": 7,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "predictive maintenance expert",
+                      "code": "http://data.europa.eu/esco/occupation/8edd8bff-cb59-4c9c-ab0f-59e77d18be48",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "instrumentation engineer",
+                      "code": "http://data.europa.eu/esco/occupation/e6800524-eec2-4c33-af0e-6f36d1d679bc",
+                      "value": 3,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "microelectronics materials engineer",
+                      "code": "http://data.europa.eu/esco/occupation/e6dfc67e-331e-4468-a249-347a08decbdb",
+                      "value": 6,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Architects, planners, surveyors and designers",
+              "code": "216",
+              "children": [
+                {
+                  "name": "Cartographers and surveyors",
+                  "code": "2165",
+                  "children": [
+                    {
+                      "name": "geographic information systems specialist",
+                      "code": "http://data.europa.eu/esco/occupation/9af8907f-56a7-4170-83b1-3c6ba0997cfa",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Business and administration professionals",
+          "code": "24",
+          "children": [
+            {
+              "name": "Finance professionals",
+              "code": "241",
+              "children": [
+                {
+                  "name": "Accountants",
+                  "code": "2411",
+                  "children": [
+                    {
+                      "name": "financial controller",
+                      "code": "http://data.europa.eu/esco/occupation/5e5b1b61-1351-4d3b-a293-deb3661715dd",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Administration professionals",
+              "code": "242",
+              "children": [
+                {
+                  "name": "Management and organisation analysts",
+                  "code": "2421",
+                  "children": [
+                    {
+                      "name": "business intelligence manager",
+                      "code": "http://data.europa.eu/esco/occupation/207d7b18-6540-432e-8aa6-785ed434572f",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Sales, marketing and public relations professionals",
+              "code": "243",
+              "children": [
+                {
+                  "name": "Advertising and marketing professionals",
+                  "code": "2431",
+                  "children": [
+                    {
+                      "name": "market research analyst",
+                      "code": "http://data.europa.eu/esco/occupation/66fb9704-0d56-4673-8e69-7823816b73e1",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Technical and medical sales professionals (excluding ICT)",
+                  "code": "2433",
+                  "children": [
+                    {
+                      "name": "medical sales representative",
+                      "code": "http://data.europa.eu/esco/occupation/ab762f91-d737-485f-a85c-67cab92dee01",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Information and communications technology professionals",
+          "code": "25",
+          "children": [
+            {
+              "name": "Software and applications developers and analysts",
+              "code": "251",
+              "children": [
+                {
+                  "name": "Systems analysts",
+                  "code": "2511",
+                  "children": [
+                    {
+                      "name": "computer vision engineer",
+                      "code": "http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341",
+                      "value": 7,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "data scientist",
+                      "code": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+                      "value": 5,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "artificial intelligence engineer",
+                      "code": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+                      "value": 9,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "ICT business analysis manager",
+                      "code": "http://data.europa.eu/esco/occupation/4b3201cb-ffc5-4f61-9fc3-5c0f0038fa5f",
+                      "value": 2,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "data analyst",
+                      "code": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+                      "value": 5,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "computer scientist",
+                      "code": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Software developers",
+                  "code": "2512",
+                  "children": [
+                    {
+                      "name": "IoT developer",
+                      "code": "http://data.europa.eu/esco/occupation/6ce5f7e3-a534-4aa2-ab23-255408ddb53a",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Database and network professionals",
+              "code": "252",
+              "children": [
+                {
+                  "name": "Database and network professionals not elsewhere classified",
+                  "code": "2529",
+                  "children": [
+                    {
+                      "name": "knowledge engineer",
+                      "code": "http://data.europa.eu/esco/occupation/812c217d-32b7-4f6a-9faf-993d3577ac7f",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Legal, social and cultural professionals",
+          "code": "26",
+          "children": [
+            {
+              "name": "Librarians, archivists and curators",
+              "code": "262",
+              "children": [
+                {
+                  "name": "Librarians and related information professionals",
+                  "code": "2622",
+                  "children": [
+                    {
+                      "name": "information manager",
+                      "code": "http://data.europa.eu/esco/occupation/3765a20d-5160-4e8f-82f1-ad7872b9db24",
+                      "value": 2,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Social and religious professionals",
+              "code": "263",
+              "children": [
+                {
+                  "name": "Economists",
+                  "code": "2631",
+                  "children": [
+                    {
+                      "name": "economic adviser",
+                      "code": "http://data.europa.eu/esco/occupation/56afc09a-75a0-49c7-a5cb-256df45d8f2d",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        }
+      ],
+      "type": "isco1"
+    },
+    {
+      "name": "Technicians and associate professionals",
+      "code": "3",
+      "children": [
+        {
+          "name": "Science and engineering associate professionals",
+          "code": "31",
+          "children": [
+            {
+              "name": "Physical and engineering science technicians",
+              "code": "311",
+              "children": [
+                {
+                  "name": "Electrical engineering technicians",
+                  "code": "3113",
+                  "children": [
+                    {
+                      "name": "electromechanical engineering technician",
+                      "code": "http://data.europa.eu/esco/occupation/51c7015c-dc81-4fcb-b15f-619a4656a9fe",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "hydropower technician",
+                      "code": "http://data.europa.eu/esco/occupation/7ef064b1-aab8-4818-a468-8f17acbfd995",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Electronics engineering technicians",
+                  "code": "3114",
+                  "children": [
+                    {
+                      "name": "electronics engineering technician",
+                      "code": "http://data.europa.eu/esco/occupation/27811419-407f-4868-a388-2f7df7aafd91",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "instrumentation engineering technician",
+                      "code": "http://data.europa.eu/esco/occupation/2bb8adee-2b84-4d7b-84f9-0620bc09ada8",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Mechanical engineering technicians",
+                  "code": "3115",
+                  "children": [
+                    {
+                      "name": "marine engineering technician",
+                      "code": "http://data.europa.eu/esco/occupation/04849c5c-9236-4a75-aabb-11c6d03e459c",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                },
+                {
+                  "name": "Draughtspersons",
+                  "code": "3118",
+                  "children": [
+                    {
+                      "name": "electromechanical drafter",
+                      "code": "http://data.europa.eu/esco/occupation/1e2aaeff-5bf1-4649-9f09-9ebbd5cc3501",
+                      "value": 4,
+                      "type": "occupation"
+                    },
+                    {
+                      "name": "marine engineering drafter",
+                      "code": "http://data.europa.eu/esco/occupation/2ac509e8-2850-42c3-b11d-d24077a7921b",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Business and administration associate professionals",
+          "code": "33",
+          "children": [
+            {
+              "name": "Financial and mathematical associate professionals",
+              "code": "331",
+              "children": [
+                {
+                  "name": "Statistical, mathematical and related associate professionals",
+                  "code": "3314",
+                  "children": [
+                    {
+                      "name": "statistical assistant",
+                      "code": "http://data.europa.eu/esco/occupation/d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        },
+        {
+          "name": "Legal, social, cultural and related associate professionals",
+          "code": "34",
+          "children": [
+            {
+              "name": "Artistic, cultural and culinary associate professionals",
+              "code": "343",
+              "children": [
+                {
+                  "name": "Gallery, museum and library technicians",
+                  "code": "3433",
+                  "children": [
+                    {
+                      "name": "big data archive librarian",
+                      "code": "http://data.europa.eu/esco/occupation/4e4a1aa1-ca53-406e-9ca6-889d4621a0ed",
+                      "value": 3,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        }
+      ],
+      "type": "isco1"
+    },
+    {
+      "name": "Craft and related trades workers",
+      "code": "7",
+      "children": [
+        {
+          "name": "Electrical and electronic trades workers",
+          "code": "74",
+          "children": [
+            {
+              "name": "Electrical equipment installers and repairers",
+              "code": "741",
+              "children": [
+                {
+                  "name": "Building and related electricians",
+                  "code": "7411",
+                  "children": [
+                    {
+                      "name": "solar energy technician",
+                      "code": "http://data.europa.eu/esco/occupation/75b63949-1b93-4bf2-a777-ccf978dc3e8a",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            },
+            {
+              "name": "Electronics and telecommunications installers and repairers",
+              "code": "742",
+              "children": [
+                {
+                  "name": "Electronics mechanics and servicers",
+                  "code": "7421",
+                  "children": [
+                    {
+                      "name": "marine electronics technician",
+                      "code": "http://data.europa.eu/esco/occupation/1d196f32-05ca-4ea5-a347-4fccbb3da863",
+                      "value": 4,
+                      "type": "occupation"
+                    }
+                  ],
+                  "type": "isco4"
+                }
+              ],
+              "type": "isco3"
+            }
+          ],
+          "type": "isco2"
+        }
+      ],
+      "type": "isco1"
+    }
+  ],
+  "type": "root"
+}

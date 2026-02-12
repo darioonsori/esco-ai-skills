@@ -1,0 +1,81 @@
+occupation,relation,count
+ICT business analysis manager,optional,2
+ICT information and knowledge manager,essential,1
+ICT information and knowledge manager,optional,1
+IoT developer,essential,4
+application engineer,optional,2
+artificial intelligence engineer,essential,5
+artificial intelligence engineer,optional,4
+autonomous driving specialist,essential,3
+big data archive librarian,essential,2
+big data archive librarian,optional,1
+bioinformatics scientist,essential,1
+bioinformatics scientist,optional,1
+biometrician,essential,2
+business intelligence manager,essential,1
+business intelligence manager,optional,1
+central bank governor,optional,2
+chief data officer,essential,3
+computer scientist,essential,1
+computer scientist,optional,3
+computer vision engineer,essential,5
+computer vision engineer,optional,2
+cosmologist,essential,1
+cosmologist,optional,1
+data analyst,essential,5
+data scientist,essential,3
+data scientist,optional,2
+document management officer,essential,1
+document management officer,optional,2
+economic adviser,essential,2
+economic adviser,optional,1
+electric power generation engineer,optional,5
+electromechanical drafter,optional,4
+electromechanical engineer,optional,4
+electromechanical engineering technician,optional,4
+electronics engineering technician,optional,4
+energy systems engineer,optional,4
+environmental engineer,essential,3
+environmental technician,essential,3
+financial controller,essential,1
+financial controller,optional,1
+geographic information systems specialist,essential,1
+geographic information systems specialist,optional,1
+hydrologist,essential,1
+hydrologist,optional,1
+hydropower technician,optional,4
+information manager,essential,1
+information manager,optional,1
+instrumentation engineer,essential,1
+instrumentation engineer,optional,2
+instrumentation engineering technician,optional,3
+knowledge engineer,essential,3
+knowledge engineer,optional,1
+language engineer,essential,2
+maintenance and repair engineer,optional,5
+marine electronics technician,optional,4
+marine engineering drafter,optional,4
+marine engineering technician,optional,4
+market research analyst,essential,1
+market research analyst,optional,1
+mathematician,essential,1
+mathematician,optional,2
+medical sales representative,essential,1
+medical sales representative,optional,1
+microelectronics designer,essential,3
+microelectronics materials engineer,essential,6
+microelectronics smart manufacturing engineer,essential,7
+military engineer,essential,1
+military engineer,optional,2
+naval architect,optional,4
+offshore renewable energy engineer,optional,2
+onshore wind energy engineer,optional,2
+power distribution engineer,optional,5
+predictive maintenance expert,essential,2
+renewable energy engineer,optional,4
+solar energy engineer,optional,4
+solar energy technician,optional,4
+statistical assistant,essential,1
+statistical assistant,optional,3
+statistician,essential,2
+statistician,optional,2

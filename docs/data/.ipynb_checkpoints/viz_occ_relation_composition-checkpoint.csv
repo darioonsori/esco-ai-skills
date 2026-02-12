@@ -1,0 +1,14 @@
+occupation,relation,count
+artificial intelligence engineer,essential,5
+artificial intelligence engineer,optional,4
+computer vision engineer,essential,5
+computer vision engineer,optional,2
+microelectronics smart manufacturing engineer,essential,7
+microelectronics materials engineer,essential,6
+data analyst,essential,5
+data scientist,essential,3
+data scientist,optional,2
+electric power generation engineer,optional,5
+maintenance and repair engineer,optional,5
+power distribution engineer,optional,5
+energy systems engineer,optional,4
