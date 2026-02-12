@@ -115,7 +115,7 @@
         we start from <em>how many</em> skills each occupation has (Section 1),
         then we ask <em>which</em> skills are most shared (Section 2),
         we add taxonomy context by positioning roles in the ISCO hierarchy (Section 3),
-        and finally we show <em>structure</em> (clusters, niche skills, bridges) using a matrix and a network view (Sections 4–5).
+        and finally we show <em>structure</em> (clusters, niche skills, bridges) using a matrix and a network view (Sections 4–5), to highlight patterns of similarity and connectivity between occupations..
       </div>
 
       <div class="callout callout-subtle">
@@ -135,7 +135,7 @@
       <div class="block-head">
         <h2>1. How large is the AI skill core for each occupation?</h2>
         <p class="description prose">
-          First, we examine the balance between <em>essential</em> and <em>optional</em> AI-related skills for each occupation.
+          First, we examine the balance between <em>essential</em> and <em>optional</em> AI-related skills for each occupation, measured as the number of ESCO links of each type.
           This addresses a simple but important question: does ESCO describe some roles as requiring a large AI “core”,
           while others rely mainly on a small essential set complemented by optional skills?
         </p>
@@ -169,7 +169,7 @@
       <div class="block-head">
         <h2>2. Which AI skills form a shared core across occupations?</h2>
         <p class="description prose">
-          After comparing occupations, we switch perspective and rank skills by how many AI-related occupations they appear in.
+          After comparing occupations, we switch perspective and rank skills by the number of AI-related occupations they are linked to.
           Skills that recur across many occupations represent a shared “baseline” in ESCO.
           We also distinguish whether a skill is labelled as <em>knowledge</em> (understanding) or <em>skill/competence</em> (doing).
         </p>
@@ -212,7 +212,7 @@
         <strong>Interpretation tip:</strong>
         bars represent <em>groups</em> in ISCO, and their values are the <strong>sum of AI-related skill links</strong>
         across all AI-related occupations contained in that group.
-        This is not “how many people work there”, nor a demand signal — it is how ESCO <em>models</em> AI competence across ISCO categories.
+        This is not “how many people work there”, nor a demand signal it is how ESCO <em>models</em> AI competence across ISCO categories.
       </div>
     
       <div class="chart-card">
@@ -230,8 +230,10 @@
         <p class="takeaway" id="isco-takeaway">
           <span class="takeaway-label">Takeaway:</span>
           <span class="takeaway-text">
-            AI-related occupations cluster strongly within professional and technical groups, with much smaller footprints elsewhere.
-            Drilling down highlights which sub-domains (e.g., science/engineering vs ICT vs business) carry most of the taxonomy’s AI links.
+            AI-related competences in ESCO are mainly concentrated in professional and technical ISCO groups.
+            This suggests that, in the ESCO taxonomy, AI is modelled primarily as a specialised competence embedded in high-skill occupational families,
+            rather than being evenly distributed across the labour classification.
+            <span class="takeaway-dynamic"></span>
           </span>
         </p>
       </div>
@@ -291,7 +293,6 @@
       <div class="callout callout-subtle">
         <strong>What to look for:</strong>
         skills with many connections can act as “bridges” between groups.
-        If your implementation supports interaction, use hover (and zoom/pan) to inspect who connects to whom.
       </div>
 
       <div class="chart-card">
@@ -353,6 +354,13 @@
             We convert raw ESCO relations into analysis-ready tables for D3 via: cleaning (label normalization, duplicates removal),
             filtering (AI-related concepts), and aggregation (per occupation, per skill, and per ISCO subtree).
             The preprocessing code (Python scripts/notebooks) is included in the repository and can be rerun to reproduce all derived datasets.
+          </p>
+
+          <p>
+            <strong>Identifying AI-related skills.</strong>
+            AI-related skills are identified through a keyword-based filtering of ESCO skill labels, using a curated list of AI-related terms
+            (e.g., machine learning, computer vision, data mining, neural networks). This procedure is intended to provide a reproducible and
+            transparent approximation of AI-related competences within the ESCO taxonomy.
           </p>
         </div>
       </div>

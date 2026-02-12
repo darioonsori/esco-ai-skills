@@ -19,10 +19,11 @@ This repository contains:
 ---
 
 ## Project structure
+
 esco-project/
 ├─ data/
-│  ├─ raw/              # original ESCO files (as downloaded)
-│  ├─ esco_csv/          # intermediate parsed ESCO tables
+│  ├─ raw/                # original ESCO files (as downloaded)
+│  ├─ esco_csv/           # intermediate parsed ESCO tables
 │  └─ processed/         # cleaned and filtered datasets
 │
 ├─ notebooks/            # preprocessing and data preparation
@@ -36,10 +37,11 @@ esco-project/
 │  └─ occupation_skill.csv
 │
 └─ web/                  # interactive website (D3.js)
-├─ assets/            # CSS + JavaScript
-├─ data/              # datasets used by the charts
-└─ index.html
-> Note: the website reads its input data from `web/data/`.
+   ├─ assets/            # CSS + JavaScript
+   ├─ data/              # datasets used by the charts
+   └─ index.html
+
+Note: the website reads its input data from `web/data/`.
 
 ---
 

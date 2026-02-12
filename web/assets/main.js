@@ -1206,7 +1206,7 @@ async function drawIscoDrilldown() {
         `<strong>${labelOf(d)}</strong>
          <div class="muted">${path || "ISCO"}</div>
          <div class="muted">Type: ${isLeaf(d) ? "occupation" : "ISCO group"}</div>
-         <div>${isLeaf(d) ? "AI-related skills" : "Total AI-related skills in subtree"}: <strong>${d.value || 0}</strong></div>
+         <div>${isLeaf(d) ? "AI-related skills link" : "Total AI-related skills in subtree"}: <strong>${d.value || 0}</strong></div>
          <div class="muted">Click to ${isLeaf(d) ? "stop (leaf)" : "drill down"}</div>`
       );
   }
@@ -1476,10 +1476,10 @@ async function drawIscoDrilldown() {
       .text(d => d.value || 0);
 
     // Update takeaway (optional)
-    const tw = document.querySelector("#isco-takeaway .takeaway-text");
+    const tw = document.querySelector("#isco-takeaway .takeaway-dynamic");
     if (tw) {
       const label = (focus === root) ? "all ISCO groups" : labelOf(focus);
-      tw.textContent = `Drilldown view on ${label}. Total AI-related skills in view: ${focus.value || 0}.`;
+      tw.textContent = ` • Drilldown: ${label} • Total links in view: ${focus.value || 0}`;
     }
   }
 
