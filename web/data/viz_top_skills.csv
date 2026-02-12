@@ -1,0 +1,21 @@
+skill_id,skill_label,skill_type,n_occurrences
+http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5,analyse big data,skill/competence,33
+http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180,data mining,knowledge,31
+http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278,perform data mining,skill/competence,25
+http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433,utilise machine learning,skill/competence,24
+http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833,statistics,knowledge,20
+http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01,data science,knowledge,13
+http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2,principles of artificial intelligence,knowledge,13
+http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43,machine learning,knowledge,8
+http://data.europa.eu/esco/skill/4f060129-8b75-4d58-a8dd-515bd8fef349,develop financial statistics reports,skill/competence,6
+http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4,artificial neural networks,knowledge,5
+http://data.europa.eu/esco/skill/03a74eee-2dc6-4147-8667-5cdeb65f122d,manage ICT data classification,skill/competence,4
+http://data.europa.eu/esco/skill/4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca,develop computer vision system,skill/competence,3
+http://data.europa.eu/esco/skill/9effa3d7-c0c4-4583-ad94-b496ba5e5f2c,data mining methods,knowledge,3
+http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669,computer vision,knowledge,2
+http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080,deep learning,knowledge,2
+http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a,natural language processing,knowledge,2
+http://data.europa.eu/esco/skill/4d3f3068-9b6a-4f33-bfa5-a7b298bfd303,medical statistics,knowledge,1
+http://data.europa.eu/esco/skill/49812c2d-3a36-4be8-bd41-8c0be3db7c6d,develop classification systems,skill/competence,1
+http://data.europa.eu/esco/skill/4262ddf4-4985-4d23-ba82-f82a226b2bde,medication classification,knowledge,1
+http://data.europa.eu/esco/skill/32bbd1de-4995-4e47-84ab-fb3a2b0cfdf1,fish identification and classification,knowledge,1

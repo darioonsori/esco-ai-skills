@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI-related occupations and skills in ESCO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+<header class="site-hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-badge">Data-Driven Storytelling • ESCO</div>
+    <h1 class="hero-title">AI-related occupations and skills in the ESCO taxonomy</h1>
+
+    <p class="hero-subtitle">
+      A visual exploration of how ESCO models AI competences across occupations:
+      what belongs to a shared <em>core</em> (essential skills) and what remains a <em>periphery</em> (optional skills).
+      The goal is to move from simple counts to <em>structure</em>: shared patterns, specialization, and bridges.
+    </p>
+
+    <div class="hero-metrics">
+      <div class="metric">
+        <div class="metric-k">Dataset</div>
+        <div class="metric-v">ESCO taxonomy</div>
+      </div>
+      <div class="metric">
+        <div class="metric-k">Unit of analysis</div>
+        <div class="metric-v">Occupation–skill links</div>
+      </div>
+      <div class="metric">
+        <div class="metric-k">Views</div>
+        <div class="metric-v">5 interactive charts</div>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn" href="#intro">Start exploring</a>
+      <a class="btn btn-ghost" href="#methodology">Methodology</a>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <!-- LEFT: sticky table of contents -->
+  <aside class="toc" aria-label="Table of contents">
+    <div class="toc-inner">
+      <div class="toc-head">
+        <div class="toc-title">Contents</div>
+
+        <button id="toc-toggle" class="toc-toggle" type="button" aria-pressed="false" aria-label="Collapse sidebar">
+          Collapse
+        </button>
+      </div>
+
+      <nav class="toc-links">
+        <a href="#intro">Overview</a>
+        <a href="#section-core-size">1. Core size per occupation</a>
+        <a href="#section-shared-core">2. Shared core skills</a>
+        <a href="#section-isco">3. ISCO context: where these occupations sit</a>
+        <a href="#section-patterns">4. Shared vs specialized patterns</a>
+        <a href="#section-network">5. Network structure</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="toc-footer">
+        <a class="toc-top" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- RIGHT: content -->
+  <div class="content">
+
+    <!-- ===================== INTRO ===================== -->
+    <section id="intro" class="story-block">
+      <div class="block-head">
+        <h2>Project overview</h2>
+        <p class="lead prose">
+          ESCO is a European taxonomy that links occupations to skills and competences.
+          Here we focus on an AI-related subset (occupations + skills) and use ESCO relations to study
+          how AI competence is represented: what is defined as <em>essential</em> (core requirements)
+          and what is defined as <em>optional</em> (peripheral specialization).
+        </p>
+      </div>
+
+      <div class="callout">
+        <strong>Main research question:</strong>
+        How are AI-related occupations structured in terms of <em>core</em> (essential) and <em>peripheral</em> (optional)
+        competences in the ESCO taxonomy?
+      </div>
+        
+      <div class="grid-2">
+          <div class="mini-card">
+            <h3>Problem</h3>
+            <p>
+              ESCO lists many AI-related occupations and skills, but it is not immediately clear
+              which competences are shared across roles and which are role-specific.
+            </p>
+          </div>
+          <div class="mini-card">
+            <h3>Approach</h3>
+            <p>
+              We analyse occupation–skill links as a bipartite structure and use interactive views
+              to compare core vs optional skills, shared skills, clusters, and bridges.
+            </p>
+          </div>
+      </div>
+    
+      <div class="callout callout-subtle">
+        <strong>Reading guide (storyline):</strong>
+        we start from <em>how many</em> skills each occupation has (Section 1),
+        then we ask <em>which</em> skills are most shared (Section 2),
+        we add taxonomy context by positioning roles in the ISCO hierarchy (Section 3),
+        and finally we show <em>structure</em> (clusters, niche skills, bridges) using a matrix and a network view (Sections 4–5).
+      </div>
+
+      <div class="callout callout-subtle">
+        <strong>Important note:</strong> this is a taxonomy-level analysis.
+        Counts reflect ESCO modelling choices (which links exist, and how they are labelled), not labour-market demand,
+        frequency, or hiring trends.
+      </div>
+
+      <div class="callout callout-subtle">
+        <strong>Data scope:</strong> in the visual analysis we keep only occupations linked to at least <strong>2</strong>
+        AI-related skills (preprocessing threshold), to remove trivial/noisy cases.
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 1 ===================== -->
+    <section id="section-core-size" class="story-block">
+      <div class="block-head">
+        <h2>1. How large is the AI skill core for each occupation?</h2>
+        <p class="description prose">
+          First, we examine the balance between <em>essential</em> and <em>optional</em> AI-related skills for each occupation.
+          This addresses a simple but important question: does ESCO describe some roles as requiring a large AI “core”,
+          while others rely mainly on a small essential set complemented by optional skills?
+        </p>
+      </div>
+      
+      <div class="callout callout-subtle">
+        <strong>Why this matters.</strong>
+        The essential/optional distinction in ESCO reflects the difference between baseline requirements and role-specific enrichment.
+        Large imbalances in this split across occupations therefore suggest different degrees of standardisation versus specialisation
+        in how AI-related competences are defined.
+      </div>
+
+      <div class="chart-card">
+        <div id="relation-chart" class="chart-container"></div>
+
+        <p class="caption">
+          <span class="cap-label">How to read:</span> each bar = one occupation. Segments show counts of <em>essential</em> vs <em>optional</em> AI skills.
+          <span class="cap-label">What you can do:</span> hover to inspect; click a segment to pin the highlight for comparison; click on empty space to reset.
+          <span class="cap-label">Reminder:</span> values represent ESCO links (taxonomy modelling), not real-world demand.
+        </p>
+
+        <p class="takeaway" id="relation-takeaway">
+          <span class="takeaway-label">Takeaway:</span>
+          <span class="takeaway-text">Loading summary…</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 2 ===================== -->
+    <section id="section-shared-core" class="story-block">
+      <div class="block-head">
+        <h2>2. Which AI skills form a shared core across occupations?</h2>
+        <p class="description prose">
+          After comparing occupations, we switch perspective and rank skills by how many AI-related occupations they appear in.
+          Skills that recur across many occupations represent a shared “baseline” in ESCO.
+          We also distinguish whether a skill is labelled as <em>knowledge</em> (understanding) or <em>skill/competence</em> (doing).
+        </p>
+      </div>
+
+      <div class="callout callout-subtle">
+        <strong>What to look for:</strong>
+        do the most common AI competences look mainly conceptual (<em>knowledge</em>) or operational (<em>skill/competence</em>)?
+        A mixed top suggests that ESCO models AI competence as both foundations + practice.
+      </div>
+
+      <div class="chart-card">
+        <div id="top-skills-chart" class="chart-container"></div>
+
+        <p class="caption">
+          <span class="cap-label">What you can do:</span> hover to inspect a skill; use filtering (if available) to compare <em>knowledge</em> vs <em>skill/competence</em>.
+          If the chart supports pinning: click an element to keep it highlighted; click outside to clear.
+        </p>
+
+        <p class="takeaway">
+          <span class="takeaway-label">Takeaway:</span>
+          A small set of skills is shared across many occupations, suggesting a common AI backbone in the taxonomy.
+          Less frequent skills tend to mark specialization or niche role requirements.
+        </p>
+      </div>
+    </section>
+    <!-- ===================== SECTION 3 ===================== -->
+    <section id="section-isco" class="story-block">
+      <div class="block-head">
+        <h2>3. ISCO context: where do AI-related occupations sit?</h2>
+    
+        <p class="description prose">
+          So far, we treated “AI-related occupations” as a single set. Here we add <em>taxonomic context</em> by placing them
+          inside the ISCO hierarchy (major groups → sub-groups → occupations). This answers a different question:
+          is AI in ESCO concentrated in a few professional families, or spread across multiple parts of the labour taxonomy?
+        </p>
+      </div>
+    
+      <div class="callout callout-subtle">
+        <strong>Interpretation tip:</strong>
+        bars represent <em>groups</em> in ISCO, and their values are the <strong>sum of AI-related skill links</strong>
+        across all AI-related occupations contained in that group.
+        This is not “how many people work there”, nor a demand signal — it is how ESCO <em>models</em> AI competence across ISCO categories.
+      </div>
+    
+      <div class="chart-card">
+        <div id="isco-drilldown" class="chart-container chart-svg"></div>
+    
+        <p class="caption">
+          <span class="cap-label">How to read:</span> each bar is an ISCO group within the current view.
+          The bar length encodes the total number of AI-related occupation–skill links in that group’s subtree.
+          <span class="cap-label">What you can do:</span> click a bar to drill down to finer ISCO levels; use the breadcrumb to jump back to any ancestor;
+          use <em>Back</em> or <em>Reset view</em> to navigate quickly.
+          <span class="cap-label">Why it matters:</span> the drilldown reveals where ESCO places AI work:
+          concentration suggests a “professional core”, while dispersion signals cross-domain uptake.
+        </p>
+    
+        <p class="takeaway" id="isco-takeaway">
+          <span class="takeaway-label">Takeaway:</span>
+          <span class="takeaway-text">
+            AI-related occupations cluster strongly within professional and technical groups, with much smaller footprints elsewhere.
+            Drilling down highlights which sub-domains (e.g., science/engineering vs ICT vs business) carry most of the taxonomy’s AI links.
+          </span>
+        </p>
+      </div>
+    
+      <div class="callout callout-subtle">
+        <strong>Design choice:</strong>
+        colours encode the ISCO <em>major group</em> (top-level ancestor). As you drill down, the colour stays stable to preserve orientation
+        and avoid re-learning the palette at every level.
+      </div>
+    </section>
+    <!-- ===================== SECTION 4 ===================== -->
+    <section id="section-patterns" class="story-block">
+      <div class="block-head">
+        <h2>4. Patterns of shared vs specialized competences</h2>
+        <p class="description prose">
+          Rankings are useful, but they hide structure. This matrix view makes patterns explicit:
+          which occupations share similar AI skill sets (clusters), and which skills appear only in a few roles (specialization).
+          With ordering controls we can compare a “totals-first” view against a similarity-oriented arrangement.
+        </p>
+      </div>
+
+      <div class="callout callout-subtle">
+        <strong>How to explore:</strong>
+        try switching between <em>Default</em> and <em>Cluster ordering</em>.
+        Then use <em>Search</em> to check whether a set of occupations (e.g., “marine”, “chief”, “envi”) forms a coherent pattern.
+        Finally, pin a skill (column) to see exactly which occupations include it.
+      </div>
+
+      <div class="chart-card">
+        <div id="heatmap-chart" class="chart-container"></div>
+
+        <p class="caption">
+          <span class="cap-label">Encoding:</span> rows = occupations, columns = skills; a filled cell indicates that the occupation is linked to that skill in ESCO.
+          <span class="cap-label">What you can do:</span> hover a cell to see details; use <em>Search</em> to highlight matching rows/columns;
+          click a column number (or the legend item) to pin / unpin that skill and isolate its footprint; click outside to clear.
+        </p>
+
+        <p class="takeaway">
+          <span class="takeaway-label">Takeaway:</span>
+          Clusters reveal families of occupations that share a common competence backbone.
+          Sparse or isolated columns indicate niche skills that likely represent specialization in ESCO.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 5 ===================== -->
+    <section id="section-network" class="story-block">
+      <div class="block-head">
+        <h2>5. Occupation–skill network: clusters and bridges</h2>
+        <p class="description prose">
+          The matrix makes co-occurrence visible, but a network view is better to reason about connectivity:
+          which skills connect otherwise separate groups of occupations, and which occupations sit at the boundary between clusters.
+          This supports an interpretation in terms of <em>transferability</em> of competences.
+        </p>
+      </div>
+
+      <div class="callout callout-subtle">
+        <strong>What to look for:</strong>
+        skills with many connections can act as “bridges” between groups.
+        If your implementation supports interaction, use hover (and zoom/pan) to inspect who connects to whom.
+      </div>
+
+      <div class="chart-card">
+        <div class="net-ui">
+          <div class="net-ui-title">Network view</div>
+        
+          <div class="net-ui-controls">
+            <input id="net-search" class="net-search" type="search" placeholder="Search occupation or skill…" />
+            <button id="net-reset" class="btn btn-ghost" type="button">Reset</button>
+        
+            <label class="net-toggle">
+              <input id="net-hubs" type="checkbox" checked />
+              <span>Show hub labels</span>
+            </label>
+          </div>
+        </div>
+        
+        <p class="net-hint muted">
+          Tip: hover to see neighbors; click to pin a node; search to highlight matches; drag nodes to explore.
+        </p>
+        
+        <div id="network-chart" class="chart-container"></div>
+
+        <p class="caption">
+          <span class="cap-label">Goal:</span> highlight clusters and bridge skills that link multiple occupations.
+          <span class="cap-label">Interaction:</span> hover nodes/links for details; zoom/pan if available.
+        </p>
+
+        <p class="takeaway">
+          <span class="takeaway-label">Takeaway:</span>
+          Bridge skills connect clusters of occupations, suggesting where competence transfer might be easier
+          (at least from a taxonomy perspective).
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== METHODOLOGY ===================== -->
+    <section id="methodology" class="story-block">
+      <div class="block-head">
+        <h2>Methodology &amp; reproducibility</h2>
+        <p class="description prose">
+          This section documents data sources, preprocessing, definitions, and the files used by each visualization
+          to make the project reproducible end-to-end.
+        </p>
+      </div>
+    
+      <div class="grid-2">
+        <div class="mini-card">
+          <h3>Data sources</h3>
+          <ul>
+            <li><strong>ESCO occupations and skills</strong> (European Commission): concept schemes and occupation–skill relationships, focusing on AI-related concepts.</li>
+            <li><strong>ISCO</strong> (International Standard Classification of Occupations): used to provide a hierarchical drilldown structure for occupations.</li>
+          </ul>
+        </div>
+    
+        <div class="mini-card">
+          <h3>Preprocessing pipeline</h3>
+          <p>
+            We convert raw ESCO relations into analysis-ready tables for D3 via: cleaning (label normalization, duplicates removal),
+            filtering (AI-related concepts), and aggregation (per occupation, per skill, and per ISCO subtree).
+            The preprocessing code (Python scripts/notebooks) is included in the repository and can be rerun to reproduce all derived datasets.
+          </p>
+        </div>
+      </div>
+    
+      <div class="grid-2">
+        <div class="mini-card">
+          <h3>Operational definitions</h3>
+          <ul>
+            <li><strong>AI-related skill link (edge)</strong>: one ESCO relation connecting an occupation to an AI-related skill. Type: <code>essential</code> or <code>optional</code>.</li>
+            <li><strong>Occupation total</strong>: number of AI-related skill links (essential + optional) for an occupation.</li>
+            <li><strong>Skill frequency</strong>: number of occupations linked to a skill.</li>
+            <li><strong>ISCO subtree total</strong>: sum of AI-related skill links across descendant occupations (hierarchy summation).</li>
+            <li><strong>Matrix cell</strong>: binary presence in the selected subset (<code>1</code> = link exists, <code>0</code> = absent/not shown).</li>
+          </ul>
+        </div>
+    
+        <div class="mini-card">
+          <h3>Reproducibility</h3>
+          <p>
+            The public GitHub repository includes: (1) preprocessing scripts, (2) the derived datasets used by the website,
+            and (3) a <code>README.md</code> explaining how to rerun preprocessing and serve the website locally.
+          </p>
+        </div>
+      </div>
+    
+      <div class="callout callout-subtle">
+        <strong>Files produced for the visualizations</strong>
+        <ul>
+          <li><strong>Chart 1</strong>: <code>viz_occ_relation_composition.csv</code></li>
+          <li><strong>Chart 2</strong>: <code>viz_top_skills.csv</code></li>
+          <li><strong>Chart 3</strong>: <code>viz_isco_sunburst.json</code></li>
+          <li><strong>Chart 4</strong>: <code>viz_heat_occ_skill_top30.csv</code> (+ <code>ai_edges_labeled.csv</code>)</li>
+          <li><strong>Chart 5</strong>: <code>viz_network_nodes.csv</code>, <code>viz_network_links.csv</code></li>
+        </ul>
+      </div>
+    </section>
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="story-block">
+      <div class="block-head">
+        <h2>About</h2>
+        <p class="description prose">
+          Final project for the Data Visualization course (Data-Driven Storytelling Website).
+        </p>
+      </div>
+    
+      <div class="grid-2">
+        <div class="mini-card">
+          <h3>Team</h3>
+          <ul>
+            <li><strong>Dario Onsori</strong> — Data processing, visual design, D3 implementation, narrative writing.</li>
+            <!-- Se siete in più, aggiungili così -->
+            <!-- <li><strong>Name Surname</strong> — Role…</li> -->
+          </ul>
+        </div>
+    
+        <div class="mini-card">
+          <h3>Repository & live website</h3>
+          <p>
+            <strong>GitHub repo:</strong> <a href="REPLACE_WITH_GITHUB_REPO_URL" target="_blank" rel="noreferrer">link</a><br>
+            <strong>GitHub Pages:</strong> <a href="REPLACE_WITH_GITHUB_PAGES_URL" target="_blank" rel="noreferrer">link</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        <strong>Data source:</strong> ESCO – European Skills, Competences, Qualifications and Occupations.
+        <span class="dot">•</span>
+        <strong>Tech:</strong> HTML, CSS, JavaScript, D3.js
+      </p>
+    </footer>
+
+  </div>
+</main>
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>

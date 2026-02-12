@@ -1,0 +1,239 @@
+occupation_id,skill_id,relation,skill_label,skill_type
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f,essential,computer simulation,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97,essential,computer programming,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43,essential,machine learning,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/45f1ae17-c20d-40fc-9307-7d33b6ca9213,essential,image recognition,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/48db96bf-3314-45c6-bad8-fdb6e20e5639,essential,data engineering,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/5b26f08b-88bc-45f0-b901-530d7786466b,essential,scientific computing,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/737f8895-46df-4283-8f38-13f3f0fc3b77,essential,digital twin technology,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833,essential,statistics,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde,essential,integrated development environment software,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/945b8655-5577-4c3a-946a-842d4527afa8,essential,digital image processing,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,essential,Python (computer programming),knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2,essential,principles of artificial intelligence,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01,essential,data science,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc,essential,normalise data,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/0d282d6e-8cb9-4339-8e7d-cfafed96b5ed,essential,conduct literature research,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/172020d1-e151-445b-8173-e2a5fb16fe51,essential,utilise computer-aided software engineering tools,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29,essential,interpret current data,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec,essential,establish data processes,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c,essential,execute analytical mathematical calculations,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c,essential,apply statistical analysis techniques,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/3e2ab38a-4519-4bef-b762-a8bf4836a775,essential,perform dimensionality reduction,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca,essential,develop computer vision system,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/4a193795-fa63-414e-9f2e-bfdb3924571e,essential,handle data samples,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8,essential,perform data cleansing,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5,essential,implement data quality processes,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4,essential,develop software prototype,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df,essential,use software libraries,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/a80fb090-63f4-4b05-83a5-2f090deb7757,essential,manage data collection systems,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389,essential,deliver visual presentation of data,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817,essential,report analysis results,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2,essential,define technical requirements,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab,essential,develop data processing applications,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8,optional,mathematical modelling,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/397da142-ab35-48fe-b154-7c38f447adfb,optional,digital systems,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/734b6025-0d14-499d-8e95-fdf512058e77,optional,image formation,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806,optional,resource description framework query language,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586,optional,query languages,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/afda6ca0-7aa8-41ef-ba5e-8dc607839daf,optional,computer graphics,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/ca71c597-51c2-4ead-a7b0-b108bce89caf,optional,cognitive computing,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/cfa2be0d-96d5-4017-a866-962efb9c5070,optional,signal processing,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/d38871eb-b988-495e-8fca-345677b597a8,optional,state estimation,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/e79a3803-dd53-46b0-906b-13e6d46ef687,optional,quantum computing,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080,optional,deep learning,knowledge
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26,optional,use markup languages,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1,optional,debug software,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278,optional,perform data mining,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/485cdafb-3c7f-4104-ab1c-773e6131a39a,optional,conduct scholarly research,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4,optional,define data quality criteria,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/8316979b-df5a-4dc7-98ef-61ec6a10df84,optional,conduct quantitative research,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d,optional,conduct qualitative research,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779,optional,create data models,skill/competence
+http://data.europa.eu/esco/occupation/1c5a45b9-440e-4726-b565-16a952abd341,http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e,optional,design user interface,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8,essential,mathematical modelling,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180,essential,data mining,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213,essential,visual presentation techniques,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/48db96bf-3314-45c6-bad8-fdb6e20e5639,essential,data engineering,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/6360a934-cc87-4954-9656-b32db20592e3,essential,quantitative analysis,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1,essential,data visualisation software,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/68ef0e4d-5542-4e64-84f4-752cce5a3c22,essential,statistical modeling techniques,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec,essential,information extraction,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/74e49482-75e8-4637-bdb1-fff868d02f7a,essential,scientific literature,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833,essential,statistics,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6,essential,information categorisation,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806,essential,resource description framework query language,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586,essential,query languages,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/b0a3bb25-a02f-43ed-ab1f-994fa66a424a,essential,online analytical processing,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/e9575f7f-053a-439e-8074-f93df3334e92,essential,data ethics,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01,essential,data science,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/f6ac6241-adb2-4ce2-b35f-09832cbb11ea,essential,empirical analysis,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5,essential,data models,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/00b9a3aa-7070-4bb5-8020-f228a97cf42f,essential,draft scientific or academic papers and technical documentation,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc,essential,normalise data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/08b04e53-ed25-41a2-9f90-0b9cd939ba3d,essential,manage research data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/1b70a55d-b8a4-49fc-96c6-15ab4cff2522,essential,use data processing techniques,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29,essential,interpret current data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/20a8fe89-d4eb-4698-8521-8881c13377e0,essential,interact professionally in research and professional environments,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/2b1e2927-3542-48da-9063-02925e7562c1,essential,disseminate results to the scientific community,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6,essential,operate open source software,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec,essential,establish data processes,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac,essential,speak different languages,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c,essential,execute analytical mathematical calculations,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/39f67488-cfd3-4370-8d7e-da98163102d9,essential,evaluate research activities,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4134622c-c3fb-4a41-beb6-6d58ba5107db,essential,demonstrate disciplinary expertise,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1,essential,use databases,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4a193795-fa63-414e-9f2e-bfdb3924571e,essential,handle data samples,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4d39b27a-b34f-4c89-8d46-df844d42f728,essential,increase the impact of science on policy and society,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4f5c1208-62fd-4e5a-a51e-306c06947e11,essential,manage findable accessible interoperable and reusable data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc,essential,perform scientific research,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/505e4ef3-7ce4-437d-b7b4-5c608f71c258,essential,build recommender systems,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8,essential,perform data cleansing,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/518dc04d-092d-4fa1-bd82-88b7a9278ef7,essential,manage intellectual property rights,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/5f0082ab-2131-49b5-94d6-a1821daf57d6,essential,apply for research funding,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511,essential,design database scheme,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5,essential,implement data quality processes,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/79e29b8b-47d1-470d-b7b1-32506bfe7d9a,essential,collect ICT data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/833289fa-3646-4010-9d9e-93ba8c9ef2d8,essential,apply research ethics and scientific integrity principles in research activities,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/872a1632-f1db-4feb-bb27-0a6a359b7591,essential,promote open innovation in research,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/979cf728-896f-4f2c-8fa8-2698ca0d4930,essential,publish academic research,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/988f4ac3-a37c-4b0a-a40f-4e0e56b5919e,essential,promote the transfer of knowledge,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/9a58cd26-58eb-4a1c-b1b6-64037fe9cfa1,essential,think abstractly,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/a584a638-a2c0-4b3c-bdf3-a64f87225be9,essential,mentor individuals,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/a80fb090-63f4-4b05-83a5-2f090deb7757,essential,manage data collection systems,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612,essential,manage personal professional development,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562,essential,write scientific publications,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389,essential,deliver visual presentation of data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817,essential,report analysis results,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/cc61f9e5-d4fc-470e-8606-1ce865ff8386,essential,develop professional network with researchers and scientists,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/cd50d616-1f8b-481e-983f-68d2674ff82d,essential,integrate gender dimension in research,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68,essential,perform project management,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/da930e2f-6047-4616-a598-bba8ecef3039,essential,manage open publications,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849,essential,synthesise information,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/f7b071bf-4882-4cfc-ae0a-7e0e0ab94c61,essential,conduct research across disciplines,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab,essential,develop data processing applications,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/fa642fc3-5cc5-41cf-8926-6617a8b976a7,essential,promote the participation of citizens in scientific and research activities,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9,essential,communicate with a non-scientific audience,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f,optional,computer simulation,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/11c56452-fcec-4b00-9695-cca4728e5048,optional,marketing analytics,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c,optional,business intelligence,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/1b7c716e-af95-4cda-a42f-6479c8b139f5,optional,MDX,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/33e584f9-ff7a-4979-bfc0-5a3a374a145a,optional,social network analysis,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/3f4dab51-572b-4e2c-85ef-3b4c3f7094e1,optional,XQuery,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/45f1ae17-c20d-40fc-9307-7d33b6ca9213,optional,image recognition,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/5b26f08b-88bc-45f0-b901-530d7786466b,optional,scientific computing,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/5da8018b-ae85-4cde-ad93-0394369018f3,optional,SPARQL,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/7159e587-c7cb-4ec0-a662-03e1dee2cccb,optional,research design,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/8f6ed69b-29d0-4c01-81ba-f05920a185f3,optional,digital curation,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/98a1dec3-8138-4f46-a596-5e2a83b884b9,optional,business analytics,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/9fc400ac-8ed2-4aff-915f-aa4f2609ec7b,optional,multidisciplinary research,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/a1eef0f4-133f-464a-a8f1-68fe3e8cc1b4,optional,healthcare analytics,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/a57a54b6-2f2e-43e4-9621-b52f4a63cb08,optional,LDAP,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666,optional,unstructured data,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/c7d24594-0c11-4b27-9039-fe0bb903da8e,optional,LINQ,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/cc7370dd-69fa-4c67-a96f-d4d135d38700,optional,data quality assessment,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/d38871eb-b988-495e-8fca-345677b597a8,optional,state estimation,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/e46291c7-52b9-4174-bd59-178884861038,optional,Hadoop,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/e464363b-8346-421d-9035-52118b76d8c8,optional,computational biology,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/f597f772-24d3-4cec-813c-cf5a7027c794,optional,N1QL,knowledge
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/03a74eee-2dc6-4147-8667-5cdeb65f122d,optional,manage ICT data classification,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be,optional,use spreadsheets software,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278,optional,perform data mining,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc,optional,integrate ICT data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4cd85845-f31c-4306-994d-e12d45114d83,optional,teach in academic or vocational contexts,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/4d85b881-e490-4b4c-897a-2faa4ef53956,optional,manage ICT data architecture,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4,optional,define data quality criteria,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/7e796b51-49d7-4e73-95af-2e7323763f15,optional,design database in the cloud,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f,optional,manage data,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/b363bb5f-2c79-40af-94da-33e06f9dee9f,optional,apply blended learning,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/be20d05c-f6b4-4580-9fcf-f00f4baab562,optional,make data-driven decisions,skill/competence
+http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30,http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779,optional,create data models,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/629685b8-5f9e-4522-8cff-b3e2c4ec625a,essential,digital data processing,
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339,essential,information structure,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f,essential,computer simulation,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575,essential,systems development life-cycle,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4,essential,information architecture,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97,essential,computer programming,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180,essential,data mining,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213,essential,visual presentation techniques,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38,essential,algorithms,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4,essential,artificial neural networks,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec,essential,information extraction,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410,essential,task algorithmisation,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6,essential,information categorisation,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb,essential,business process modelling,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806,essential,resource description framework query language,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666,essential,unstructured data,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d,essential,Python (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2,essential,principles of artificial intelligence,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01,essential,data science,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5,essential,data models,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9,essential,creatively use digital technologies,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/1b70a55d-b8a4-49fc-96c6-15ab4cff2522,essential,use data processing techniques,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3,essential,design process,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5,essential,analyse big data,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49,essential,develop creative ideas,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/906323f4-00c4-4c3b-ab5a-8af77be3456e,essential,create data sets,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17,essential,analyse business requirements,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/bb165899-d95f-4433-95f2-173fefd716d2,essential,develop statistical software,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389,essential,deliver visual presentation of data,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/cbe2c304-1e7d-489a-97d9-a7d3e37a9db6,essential,apply ICT systems theory,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2,essential,define technical requirements,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/000f1d3d-220f-4789-9c0a-cc742521fb02,optional,Haskell,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/034c29fa-c3ba-45ea-b8f3-bf8e3705e386,optional,Erlang,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93,optional,SAS language,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4,optional,Agile project management,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0ccdfe98-f845-4598-84a1-3dca66e9d9a3,optional,Ruby (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0cd6dcf1-5778-42a5-b685-4d01ae4a4871,optional,Common Lisp,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0de61385-de6d-4146-ba32-1cc1bc102220,optional,Lisp,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/13bdd41a-2a18-441f-96db-41252c519413,optional,Visual Basic,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c,optional,business intelligence,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389,optional,Java (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/2bde42ae-e776-41c1-9ded-b07b30bfe985,optional,Prolog (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/300d432b-f457-4cd3-9cb1-1858c7d14954,optional,OpenEdge Advanced Business Language,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7,optional,JavaScript,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/401eb8d8-6daa-4f8b-90ad-60afc71eb4f8,optional,Perl,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/42ed3bfb-1a01-4c8b-9758-fc6438865734,optional,Smalltalk (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f,optional,PHP,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/47b9bbcf-356c-4782-83a4-7f5a1b2b51a3,optional,Assembly (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a,optional,C#,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b,optional,R,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/52cf3037-ab53-4806-85ed-7fd21ea7f6a1,optional,Groovy,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/5da8018b-ae85-4cde-ad93-0394369018f3,optional,SPARQL,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/726abd5a-d23c-44b9-abb0-f22bbe95f1d3,optional,operational research,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669,optional,computer vision,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/8369ede5-4200-4a44-be2e-bc60ef959259,optional,Microsoft Visual C++,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68,optional,TypeScript,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/98a1dec3-8138-4f46-a596-5e2a83b884b9,optional,business analytics,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/993b1e23-f2de-4bd8-b33f-f86dde1c8e9d,optional,CoffeeScript,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/9973a5a2-7822-4161-99e9-95c781eb63f8,optional,Objective-C,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe,optional,database development tools,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0,optional,ML (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f,optional,C++,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/bb99af26-71ff-4dca-bde7-1eb1f6194426,optional,SAP R3,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/be80acfc-b6f2-4411-9b8d-b19d9cd2556a,optional,Swift (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9,optional,ICT project management methodologies,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/c3a03c5a-c260-4c26-9b9a-873abb396f4d,optional,MATLAB,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/c7d24594-0c11-4b27-9039-fe0bb903da8e,optional,LINQ,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/d56fc2b5-4b0a-4e7e-9bde-a33736f6ff18,optional,Scratch (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/d5a59ca8-2e91-472e-8571-d12ce4478679,optional,Process-based management,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/da6393d5-a53c-4863-abc7-51f36281d74e,optional,lean project management,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/dcdd5ddf-82a6-4ac3-8edc-d4b23cae9a88,optional,VBScript,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/def007fa-5fed-4a5f-91a2-b0d7e3db1be1,optional,COBOL,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/e8b89eb6-51e8-4c3a-babb-88b2e110376b,optional,Pascal (computer programming),knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080,optional,deep learning,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/f597f772-24d3-4cec-813c-cf5a7027c794,optional,N1QL,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6,optional,Scala,knowledge
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/03a74eee-2dc6-4147-8667-5cdeb65f122d,optional,manage ICT data classification,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/0dc7aa1b-b5af-4f4b-81ce-ee22ed8b6926,optional,assess ICT knowledge,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/38d49d88-9069-467b-b29e-3cae739bdd4d,optional,build predictive models,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/3e2ab38a-4519-4bef-b762-a8bf4836a775,optional,perform dimensionality reduction,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/41bf7ede-fc84-4a57-8c89-b548d11b0ba1,optional,manage business knowledge,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/4d30ad07-9e39-4899-81dd-02b280f162f9,optional,apply systemic design thinking,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/505e4ef3-7ce4-437d-b7b4-5c608f71c258,optional,build recommender systems,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/553ad092-b799-44c9-a94c-65a84fdc7526,optional,identify processes for re-engineering,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511,optional,design database scheme,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433,optional,utilise machine learning,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968,optional,design application interfaces,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1,optional,build business relationships,skill/competence
+http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8,http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966,optional,manage ICT semantic integration,skill/competence
