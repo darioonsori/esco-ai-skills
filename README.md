@@ -10,11 +10,11 @@ This repository contains:
 
 ## Live demo
 
-- GitHub Pages: REPLACE_WITH_GITHUB_PAGES_URL
+- GitHub Pages: https://darioonsori.github.io/esco-ai-skills/
 
 ## Repository
 
-- GitHub repo: REPLACE_WITH_GITHUB_REPO_URL
+- GitHub repo: https://github.com/darioonsori/esco-ai-skills
 
 ---
 
